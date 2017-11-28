@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name" color="#000">Gastric Disease Diagnosis</string>
+    <string name="form">FORM</string>
+
+    <string-array name="Jenis_Kelamin">
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+    </string-array>
+
+</resources>

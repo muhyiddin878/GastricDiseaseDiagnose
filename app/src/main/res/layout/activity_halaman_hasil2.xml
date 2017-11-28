@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".Halaman_hasil"
+    android:background="@drawable/gradient3"
+    >
+
+
+
+
+
+            <ImageView
+                android:layout_centerHorizontal="true"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/ganti"
+                android:src="@drawable/add"
+
+                />
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="#ffff"
+                android:textSize="30sp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tampilnama"
+                android:layout_below="@+id/ganti"
+                android:text=""
+                android:layout_centerHorizontal="true"
+
+                />
+
+
+            <TextView
+                android:layout_below="@+id/tampilnama"
+                android:textColor="#fff"
+                android:textSize="30sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tampilusia"
+                android:text=""
+
+                android:layout_centerHorizontal="true"
+
+                />
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ANDA MENGALAMI:"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="#e62a2a"
+        android:fontFamily="casual"
+        android:layout_below="@+id/tampilusia"
+        android:id="@+id/diagnosa"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border2"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:fontFamily="fantasy"
+        android:id="@+id/hasil"
+        android:layout_below="@+id/diagnosa"
+        />
+
+    <ImageButton
+        android:id="@+id/tombolrincian"
+        android:layout_below="@+id/hasil"
+        android:layout_centerHorizontal="true"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:scaleType="fitCenter"
+        android:background="#0000"
+        android:src="@drawable/tombolrincian"
+        />
+
+
+
+
+
+
+</RelativeLayout>
+
+

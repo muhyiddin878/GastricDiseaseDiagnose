@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:id="@+id/rl"
+    tools:context=".MaagActivity">
+
+
+
+
+
+    <Button
+        android:id="@+id/btn"
+
+        android:layout_centerHorizontal="true"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp"
+        android:text="Lihat Rincian"
+        android:background="#ce7c25"
+        android:fontFamily="casual"
+
+
+        />
+    <ImageButton
+        android:layout_below="@+id/btn"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:id="@+id/tombolpenanganan"
+        android:src="@drawable/tombolpenanganan"
+        android:background="#0000"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitCenter"/>
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:scaleType="fitCenter"
+        android:background="#0000"
+        android:layout_height="60dp"
+        android:id="@+id/tombolsetting"
+        android:src="@drawable/tombolsetting"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+
+        />
+
+
+</RelativeLayout>
