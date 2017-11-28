@@ -13,16 +13,17 @@
 
 
 
-    <Button
+    <ImageButton
         android:id="@+id/btn"
-
+        android:src="@drawable/tombollihatrincian"
+        android:scaleType="fitCenter"
         android:layout_centerHorizontal="true"
-        android:layout_width="150dp"
-        android:layout_height="50dp"
+        android:layout_width="170dp"
+        android:layout_height="70dp"
         android:layout_marginTop="200dp"
         android:text="Lihat Rincian"
-        android:background="#ce7c25"
-        android:fontFamily="casual"
+        android:background="#0000"
+
 
 
         />
@@ -42,7 +43,7 @@
         android:background="#0000"
         android:layout_height="60dp"
         android:id="@+id/tombolsetting"
-        android:src="@drawable/tombolsetting"
+        android:src="@drawable/tombolpilihan"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
 

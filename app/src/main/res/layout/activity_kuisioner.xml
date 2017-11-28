@@ -50,7 +50,7 @@
                     android:background="#0000"
                     android:layout_height="60dp"
                     android:id="@+id/tombolsetting"
-                    android:src="@drawable/tombolsetting"
+                    android:src="@drawable/tombolpilihan"
                     android:layout_alignParentEnd="true"
                     android:layout_alignParentRight="true"
 

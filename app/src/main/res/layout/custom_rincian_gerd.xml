@@ -18,7 +18,7 @@
         android:src="@drawable/tombolx"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:background="@null"
+        android:background="#0000"
         />
     <TextView
         android:id="@+id/show"

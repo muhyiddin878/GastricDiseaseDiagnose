@@ -61,7 +61,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ANDA MENGALAMI:"
+        android:text="ANDA TERDIAGNOSA MENGALAMI:"
         android:textAlignment="center"
         android:textSize="30sp"
         android:textColor="#e62a2a"
