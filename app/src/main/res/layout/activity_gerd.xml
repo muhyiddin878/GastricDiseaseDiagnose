@@ -44,17 +44,7 @@
         android:layout_centerHorizontal="true"
         android:scaleType="fitCenter"/>
 
-    <ImageButton
-        android:layout_width="60dp"
-        android:scaleType="fitCenter"
-        android:background="#0000"
-        android:layout_height="60dp"
-        android:id="@+id/tombolsetting"
-        android:src="@drawable/tombolsetting"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
 
-        />
 
 
 </RelativeLayout>

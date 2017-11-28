@@ -87,11 +87,12 @@
 
 
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="250dp"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_marginTop="100dp"
+        android:id="@+id/layar"
         >
 
         <TextView
@@ -104,132 +105,118 @@
             android:textSize="25sp"
             android:textColor="@android:color/white"
             />
-    </LinearLayout>
+    </RelativeLayout>
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="300dp"
+        android:id="@+id/centang"
+        android:layout_below="@+id/layar"
+
         >
 
 
 
         <RadioGroup
             android:id="@+id/choice"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
+            android:orientation="vertical"
             android:layout_gravity="right"
-            android:layout_marginTop="2dp"
-            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+
             >
-
-           <!--<RelativeLayout-->
-               <!--android:layout_width="wrap_content"-->
-               <!--android:layout_height="wrap_content"-->
-               <!--android:orientation="vertical"-->
-               <!--android:layout_marginRight="30dp"-->
-
-               <!--&gt;-->
-
-
-               <!--<RadioButton-->
-                   <!--android:id="@+id/pilihan2"-->
-                   <!--android:layout_width="wrap_content"-->
-                   <!--android:layout_height="wrap_content"-->
-                   <!--android:text="TIDAK"-->
-                   <!--android:fontFamily="casual"-->
-                   <!--android:textSize="20sp" />-->
-
-               <!--<RadioButton-->
-                   <!--android:layout_below="@+id/pilihan2"-->
-                   <!--android:id="@+id/pilihan3"-->
-                   <!--android:layout_width="wrap_content"-->
-                   <!--android:layout_height="wrap_content"-->
-                   <!--android:text="SEDIKIT YAKIN"-->
-                   <!--android:fontFamily="casual"-->
-                   <!--android:textSize="20sp" />-->
-               <!--<RadioButton-->
-                   <!--android:layout_below="@+id/pilihan3"-->
-                   <!--android:id="@+id/pilihan4"-->
-                   <!--android:layout_width="wrap_content"-->
-                   <!--android:layout_height="wrap_content"-->
-                   <!--android:text="CUKUP YAKIN"-->
-                   <!--android:fontFamily="casual"-->
-                   <!--android:textSize="20sp" />-->
-
-
-           <!--</RelativeLayout>-->
 
 
             <RadioButton
+                android:id="@+id/pilihan2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="100dp"
+                android:fontFamily="casual"
+                android:text="TIDAK"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/pilihan3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pilihan2"
+                android:fontFamily="casual"
+                android:text="SEDIKIT YAKIN"
+                android:textSize="20sp"
+                />
+
+
+            <RadioButton
+                android:id="@+id/pilihan4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pilihan3"
+                android:fontFamily="casual"
+                android:text="CUKUP YAKIN"
+                android:textSize="20sp" />
+
+            <RadioButton
+
                 android:id="@+id/pilihan5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginRight="100dp"
                 android:fontFamily="casual"
-
                 android:text="YAKIN"
                 android:textSize="20sp" />
 
-            <RadioButton
-                android:id="@+id/pilihan1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/pilihan5"
-                android:fontFamily="casual"
-                android:text="SANGAT YAKIN"
-                android:textSize="20sp" />
+                    <RadioButton
+                        android:id="@+id/pilihan1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/pilihan5"
+                        android:fontFamily="casual"
+                        android:text="SANGAT YAKIN"
+                        android:textSize="20sp" />
 
-
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                >
-
-            </RelativeLayout>
 
 
         </RadioGroup>
 
-
-
-
     </RelativeLayout>
 
-    <LinearLayout
-        android:layout_marginTop="450dp"
+    <RelativeLayout
+        android:layout_below="@+id/centang"
         android:layout_width="match_parent"
         android:orientation="horizontal"
-        android:layout_height="match_parent"
+        android:layout_height="100dp"
 
         >
 
 
         <ImageButton
 
-            android:layout_marginTop="70dp"
-            android:src="@drawable/tombolback"
-            android:scaleType="fitCenter"
-            android:layout_width="150dp"
-            android:layout_marginRight="65dp"
-            android:layout_marginLeft="8dp"
-            android:layout_gravity="right"
-            android:layout_height="75dp"
-            android:background="#0000"
+
             android:id="@+id/tombolback"
-            />
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="right"
+            android:layout_marginStart="14dp"
+            android:background="#0000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/tombolback" />
 
         <ImageButton
 
             android:id="@+id/tombolnext"
-            android:src="@drawable/tombolnext"
-
             android:layout_width="150dp"
             android:layout_height="75dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/tombolback"
             android:layout_gravity="left"
+            android:layout_marginEnd="14dp"
+            android:background="#0000"
             android:scaleType="fitCenter"
-            android:background="#0000"/>
-    </LinearLayout>
+            android:src="@drawable/tombolnext" />
+    </RelativeLayout>
 
 </RelativeLayout>
 
