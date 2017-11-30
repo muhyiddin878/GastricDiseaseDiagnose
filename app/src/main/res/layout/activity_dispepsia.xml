@@ -6,7 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient"
-    tools:context="com.example.muhyiddin878.gastricdiseasediagnosis.MaagActivity">
+    android:id="@+id/rl"
+    tools:context=".MaagActivity">
 
 
 
@@ -22,6 +23,7 @@
         android:layout_marginTop="200dp"
         android:text="Lihat Rincian"
         android:background="#0000"
+
 
 
         />
