@@ -24,7 +24,8 @@
         android:id="@+id/show"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="MAAG ADALAH"
+        android:text="Dispepsia adalah sekumpulan gejala berupa nyeri, perasaan tidak enak pada perut bagian atas yang menetap atau berulang disertai dengan gejala lainnya seperti rasa penuh saat makan, cepat kenyang, kembung, bersendawa, nafsu makan menurun, mual, muntah, dan dada terasa panas yang telah berlangsung sejak 3 bulan terakhir, dengan awal mula gejala timbul dalam 6 bulan sebelumnya.
+Sumber: Dispepsia – Pengertian, Gejala dan  Pengobatan - Mediskus"
         android:fontFamily="casual"
         android:layout_centerInParent="true"
         android:background="#ecd930"

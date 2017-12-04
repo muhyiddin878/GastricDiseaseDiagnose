@@ -24,7 +24,12 @@
         android:id="@+id/show"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=""
+        android:text="Obat yang diperlukan untuk GERD adalah pentralisir asam lambung, mengurangi produksi asal lambung, menguatkan sfinkter, dan mengobati kerusakan lapisan saluran cerna akibat asam lambung.
+        Berikut obat-obat yang dimaksud:
+        1.Antasida Terkenal sebagai obat maag karena sangat banyak tersedia di pasaran maupun iklan di TV. Obat ini berfungsi menetralisir asam lambung, tersedia dalam bentuk sirup dan tablet. contohnya antasida doen, promag, mylanta, dsb.
+        2.H2 Receptor Blocker Obat GERD ini berfungsi mengurangi produksi asam lambung. Contohnya cimetidine, famotidine, nizatidine, dan ranitidine. Mungkin obat ini bekerja tidak secepat antasida, tetapi dapat memberikan bantuan yang lebih lama dan dapat menurunkan produksi asam lambung hingga 12 jam.
+        3.Inhibitor pompa proton Blocker kuat terhadap produksi asam daripada H-2-receptor blocker dan memberikan waktu bagi jaringan esofagus yang rusak untuk memperbaiki diri. Cohtoh obatnya: lansoprazole dan omeprazole.
+        4.Penguat Sfingter Obat untuk memperkuat sfingter esofagus bagian bawah yaitu Baclofen yang dapat menurunkan frekuensi relaksasi dari sfingter esofagus bagian bawah dan karena itu dapat menurunkan gastroesophageal reflux."
         android:fontFamily="fantasy"
         android:layout_centerInParent="true"
         android:background="#ecd930"

@@ -24,7 +24,14 @@
         android:id="@+id/show"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=""
+        android:text="Untuk Meredakannya isa dengan dengan obat-obatan yang didiskusikan dengan dokter anda seperti berikut :
+1. Antasida (Menetralisir asam lambung dan menghilangkan rasa nyeri)
+2. Pompa Proton pencegah pertumbuhan bakteri(Menghentikan produksi asam lambung dan menghambat infeksi bakteri helicobacter pylori)
+3. Agen Cytoprotektif (Melindungi jaringan mukosa lambung dan usus halus)
+4. Obat anti sekretorik (Mampu menekan sekresi asam)
+5. Pankreatin (Membantu pencernaan lemak, karbohidrat, protein dan mengatasi gangguan sakit pencernaan seperti perut kembung, mual, dan sering mengeluarkan gas)
+6. Ranitidin (Mengobati tukak lambung)
+7. Simetidin (Mengobati dispepsia)"
         android:fontFamily="fantasy"
         android:layout_centerInParent="true"
         android:background="#ecd930"

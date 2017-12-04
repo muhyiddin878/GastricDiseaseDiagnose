@@ -24,7 +24,8 @@
         android:id="@+id/show"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="GERD ADALAH"
+        android:text="GERD adalah singkatan dari Gastroesophageal reflux disease merupakan penyakit saluran pencernaan akibat asam lambung yang naik ke esofagus (refluks). Hal ini akan membuat penderitanya merasa mual bahkan muntah dan juga dada terasa panas seperti terbakar (heartburn).
+Sumber: Penyakit GERD : Definisi, Gejala, Penyebab, Pengobatan - Mediskus"
         android:fontFamily="casual"
         android:layout_centerInParent="true"
         android:background="#ecd930"

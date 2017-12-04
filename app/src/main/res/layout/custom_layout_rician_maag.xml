@@ -24,7 +24,7 @@
         android:id="@+id/show"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="MAAG ADALAH"
+        android:text="MAAG ADALAH gejala penyakit yang menyerang lambung yang disebabkan tingginya kadar asam lambung dengan terasa mulas,sakit dan perih pada perut. tingginya asam lambung yang terlalu lama bisa berakibatnya  peradangan lambung dan usus.  "
         android:fontFamily="casual"
         android:layout_centerInParent="true"
         android:background="#ecd930"

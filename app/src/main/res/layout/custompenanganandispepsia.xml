@@ -24,7 +24,9 @@
         android:id="@+id/show"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=""
+        android:text="Pemberian obat-obatan seperti parasetamol, obat ini sangat dipercaya ampuh dalam mengobati penyakit dispepsia, sebab obat parasetamol tidak akan membuat lambung anda menjadi rusak atau terganggu
+Mengkonsumsi salah satu jenis obat ini (antasida, ranitidin, lansoprazole dan omeprazole). Namun apabila penyaklit ini dibarengi dengan adanya infeksi lambung, maka dalam pengobatannya harus dibarengi dengan obat yang bersifat antibiotik.
+"
         android:fontFamily="fantasy"
         android:layout_centerInParent="true"
         android:background="#ecd930"
