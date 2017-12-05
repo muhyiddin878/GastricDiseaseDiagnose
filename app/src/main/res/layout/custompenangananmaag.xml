@@ -22,6 +22,7 @@
         />
     <TextView
         android:id="@+id/show"
+        android:layout_below="@+id/ib_close"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Untuk Meredakannya isa dengan dengan obat-obatan yang didiskusikan dengan dokter anda seperti berikut :
